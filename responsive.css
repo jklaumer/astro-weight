@@ -1,6 +1,22 @@
-h1 {
-	font-size: 1em;
-	margin: 20px
+head {
+	/*font-size: 1em;
+	margin: 20px*/
 	float: left;
-	width: 45%;
+	width: 100%;
 }
+body {
+	/*font-size: 1em;
+	margin: 20px*/
+	float: left;
+	width: 100%;
+}
+p {
+	/*font-size: 1em;
+	margin: 20px*/
+	float: left;
+	width: 100%;
+}
+
+/*div label{
+	width: 80%;
+}*/
