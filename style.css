@@ -5,15 +5,18 @@ h1 {
 }
 
 body {
+	width: 100%;
 	font-family: avenir;
 	font-size: .5em;
 	font-weight: bold;
 }
 
-input {
-	
+#submit {
 	color: white;
-	background-color: #4d4dff;
+	background-color: #0080ff;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
 }
 
 p {
@@ -21,5 +24,17 @@ p {
 	width: 100%;
   	padding: 1em 0;
   	border: 1px solid rgba(128, 128, 128, .5);
+  	line-height: normral;
+  	text-align: justify;
+
 }
 
+div {
+    display: inline-block;
+}
+div label {
+	display: block;
+}
+* {
+	background-color: #fff;
+}
