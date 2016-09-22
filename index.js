@@ -1,22 +1,11 @@
 // Generate the display title of the Astro Weight Calculator by reversing the string, 'rotaluclaC thgieW ortsA', 
 // using JavaScript and binding the result to a span tag using getElementById() syntax
 
+function reverse(s) {
+	return s.split("").reverse().join("");
+}
+document.getElementById("reverseTag").innerHTML= reverse("rotaluclaC thgieW ortsA");
 
-
-
-
-
-
-
-
-
-// function reverse(s) {
-//   if (s.length < 2)
-//     return s;
-//   var halfIndex = Math.ceil(s.length / 2);
-//   return reverse(s.substr(halfIndex)) +
-//          reverse(s.substr(0, halfIndex));
-// }
 
 var planets = [
 	  {planet: 'Sun', gravity: 27.9},
@@ -53,3 +42,4 @@ function calculateWeight() {
 // - This function should grab the values entered by the user from the `input` element and the `select` element.
 // - The function should then calculate the weight of the user on the selected planet, 
 // - and show the weight to the user in the `p` element you added to your HTML.
+	
