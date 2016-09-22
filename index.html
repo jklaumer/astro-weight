@@ -2,48 +2,46 @@
 <html>
  
 <!--HEADING - ASTRO WEIGHT CALCULATOR-->
-	<head>
-	  	<h1>Astro Weight Calculator</h1>
-	</head>
- 
-<!-- // AFTER HEADING PUT LINE BREAK-->
-
-
+		<head>
+		  	<h1><span id="reverseTag"></h1>
+		</head>
 
 <!-- // TEXT ENTER BLOCK FOR "YOUR WEIGHT" AND THEN A DROP DOWN BOX FOR "SELECT A PLANET"-->
+	<div>
+		<body>
+	<div>
+				<label> Your Weight: </label>     
+				<!-- 1 of 4 'INPUT'  -->
+				    <input type="text" id="myWeight">
+	</div>
+	<div>  
+				<label> Select a Planet: </label> 
+				<!-- 2 of 4 'SELECT' -->
+				<select id="planet">
+				    <option value= "1">Earth</option>
+					<option value= "27.9">Sun</option>
+					<option value= "0.1655">Moon</option>
+					<option value= "0.377">Mercury</option>
+					<option value= "0.9032">Venus</option>
+					<option value= "0.3895">Mars</option>
+					<option value= "2.640">Jupiter</option>
+					<option value= "1.139">Saturn</option>
+					<option value= "0.917">Uranus</option>
+					<option value= "1.148">Neptune</option>
+					<option value= "0.06">Pluto</option>
+				</select>
+	</div>
+				<!-- 3 of 4 'BUTTON' -->    
+				    <input id="submit" type="button" onclick="calculateWeight()" value="calculate">
 
-	<body>
-
-			Your Weight:      
-			<!-- 1 of 4 'INPUT'  -->
-			      <input type="text" id="myWeight">
-			  
-			Select a Planet:
-			<!-- 2 of 4 'SELECT' -->
-
-			<select id="planet">
-			    <option value= "1">Earth</option>
-				<option value= "27.9">Sun</option>
-				<option value= "0.1655">Moon</option>
-				<option value= "0.377">Mercury</option>
-				<option value= "0.9032">Venus</option>
-				<option value= "0.3895">Mars</option>
-				<option value= "2.640">Jupiter</option>
-				<option value= "1.139">Saturn</option>
-				<option value= "0.917">Uranus</option>
-				<option value= "1.148">Neptune</option>
-				<option value= "0.06">Pluto</option>
-			</select>
-
-			<!-- 3 of 4 'BUTTON' -->    
-			      <input type="button" onclick="calculateWeight()" value="calculate">
-			      
 
 
-			<!-- 4 of 4 'HAVE A PARAGRAPH <P> FOR DISPLAYING OUTPUT' -->
-			<p id="myOutput"></p>
+				<!-- 4 of 4 'HAVE A PARAGRAPH <P> FOR DISPLAYING OUTPUT' -->
+					<p id="myOutput"></p>
 
-		<link type="text/css" rel="stylesheet" href="style.css">
-		<script type="text/javascript" src="index.js"></script>		  
-	</body>
+			<link type="text/css" rel="stylesheet" href="style.css">
+			<link type="text/css" rel="stylesheet" href="responsive.css">
+			<script type="text/javascript" src="index.js"></script>		  
+		</body>
+	</div>
 </html>
